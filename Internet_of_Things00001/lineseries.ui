@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lineseries</class>
+ <widget class="QWidget" name="lineseries">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1143</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>60</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>折线图</string>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Adobe Arabic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>曲线图</string>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QChartView" name="graphicsView1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>531</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QChartView" name="graphicsView2">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>110</y>
+     <width>531</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
